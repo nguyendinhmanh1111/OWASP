@@ -4,8 +4,8 @@ In this section, we'll explain what SQL injection is, describe some common examp
 
 #### What is SQL injection (SQLi)?
 
-SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. It generally allows an attacker to view data that they are not normally able to retrieve. This might include data belonging to other users, or any other data that the application itself is able to access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application's content or behavior.
-
+SQL Injection is a technique that allows attackers to take advantage of the vulnerability of checking input data in web applications and the error messages returned by the database management system to inject. and executing illegal SQL statements
+SQL injection can allow attackers to perform operations on the database of an application, even the server on which the application is running.
 In some situations, an attacker can escalate an SQL injection attack to compromise the underlying server or other back-end infrastructure, or perform a denial-of-service attack.
 
 
