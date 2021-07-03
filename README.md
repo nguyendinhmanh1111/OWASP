@@ -9,6 +9,13 @@ SQL Injection is a technique that allows attackers to take advantage of the vuln
 SQL injection can allow attackers to perform operations on the database of an application, even the server on which the application is running.
 In some situations, an attacker can escalate an SQL injection attack to compromise the underlying server or other back-end infrastructure, or perform a denial-of-service attack.
 
+#### What’s the worst an attacker can do with SQL?
+* An attacker can use SQL injection to bypass authentication or even impersonate specific users.
+* One of SQL’s primary functions is to select data based on a query and output the result of that query. An SQL injection vulnerability could allow the complete disclosure of data residing on a database server.
+* Since web applications use SQL to alter data within a database, an attacker could use SQL injection to alter data stored in a database. Altering data affects data integrity and could cause repudiation issues, for instance, issues such as voiding transactions, altering balances and other records.
+* SQL is used to delete records from a database. An attacker could use an SQL injection vulnerability to delete data from a database. Even if an appropriate backup strategy is employed, deletion of data could affect an application’s availability until the database is restored.
+* Some database servers are configured (intentional or otherwise) to allow arbitrary execution of operating system commands on the database server. Given the right conditions, an attacker could use SQL injection as the initial vector in an attack of an internal network that sits behind a firewall.
+
 
 |    SQL Injection Type        | Description                     
 |----------------|-------------------------------|
